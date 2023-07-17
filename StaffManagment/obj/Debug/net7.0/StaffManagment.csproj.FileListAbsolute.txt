@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\My App\StaffManagment\StaffManagment\bin\Debug\net7.0\StaffManagment.exe
+C:\Users\user\Desktop\My App\StaffManagment\StaffManagment\bin\Debug\net7.0\StaffManagment.deps.json
+C:\Users\user\Desktop\My App\StaffManagment\StaffManagment\bin\Debug\net7.0\StaffManagment.runtimeconfig.json
+C:\Users\user\Desktop\My App\StaffManagment\StaffManagment\bin\Debug\net7.0\StaffManagment.dll
+C:\Users\user\Desktop\My App\StaffManagment\StaffManagment\bin\Debug\net7.0\StaffManagment.pdb
+C:\Users\user\Desktop\My App\StaffManagment\StaffManagment\obj\Debug\net7.0\StaffManagment.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\My App\StaffManagment\StaffManagment\obj\Debug\net7.0\StaffManagment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\My App\StaffManagment\StaffManagment\obj\Debug\net7.0\StaffManagment.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\My App\StaffManagment\StaffManagment\obj\Debug\net7.0\StaffManagment.AssemblyInfo.cs
+C:\Users\user\Desktop\My App\StaffManagment\StaffManagment\obj\Debug\net7.0\StaffManagment.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\My App\StaffManagment\StaffManagment\obj\Debug\net7.0\StaffManagment.dll
+C:\Users\user\Desktop\My App\StaffManagment\StaffManagment\obj\Debug\net7.0\refint\StaffManagment.dll
+C:\Users\user\Desktop\My App\StaffManagment\StaffManagment\obj\Debug\net7.0\StaffManagment.pdb
+C:\Users\user\Desktop\My App\StaffManagment\StaffManagment\obj\Debug\net7.0\StaffManagment.genruntimeconfig.cache
+C:\Users\user\Desktop\My App\StaffManagment\StaffManagment\obj\Debug\net7.0\ref\StaffManagment.dll
