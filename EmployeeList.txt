@@ -8,3 +8,4 @@ Nomi : Andy   Oyligi : 300   Ishlagan vaqti : 2   Ishlash bo'limi : IT
 Nomi : Tayson   Oyligi : 400   Ishlagan vaqti : 4   Ishlash bo'limi : HR
 Nomi : Michael   Oyligi : 200   Ishlagan vaqti : 15   Ishlash bo'limi : IT
 wrgwe ergew weger  geg
+Salom bu Muham
