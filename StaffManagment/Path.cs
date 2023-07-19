@@ -8,7 +8,7 @@ namespace StaffManagment
 {
     public static class Path
     {
-        //private string getPath = FileInfo();
+        //private string getPath = FileInfo();er
         public static string path = @"C:\Users\user\Desktop\My App\StaffManagment\EmployeeList.txt";
     }
 }
