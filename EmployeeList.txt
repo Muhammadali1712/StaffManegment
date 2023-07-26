@@ -1,10 +1,1 @@
 Nomi : Alex   Oyligi : 300   Ishlagan vaqti : 10   Ishlash bo'limi : IT
-Nomi : Bob   Oyligi : 400   Ishlagan vaqti : 5   Ishlash bo'limi : HR
-Nomi : Tom   Oyligi : 200   Ishlagan vaqti : 7   Ishlash bo'limi : HR
-Nomi : Jerry   Oyligi : 350   Ishlagan vaqti : 9   Ishlash bo'limi : IT
-Nomi : Ali   Oyligi : 500   Ishlagan vaqti : 18   Ishlash bo'limi : IT
-Nomi : Vali   Oyligi : 450   Ishlagan vaqti : 12   Ishlash bo'limi : HR
-Nomi : Andy   Oyligi : 300   Ishlagan vaqti : 2   Ishlash bo'limi : IT
-Nomi : Tayson   Oyligi : 400   Ishlagan vaqti : 4   Ishlash bo'limi : HR
-Nomi : Michael   Oyligi : 200   Ishlagan vaqti : 15   Ishlash bo'limi : IT
-Nomi : sdsds   Oyligi : 232   Ishlagan vaqti : 0   Ishlash bo'limi : adadsd

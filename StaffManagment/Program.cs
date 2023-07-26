@@ -66,9 +66,9 @@
 
         public static async void GanerateEmployees()
         {
-            ManagmentEmployee.employees.Add(new ManagmentEmployee() { Name = "Alex", Salary = 300, WorkingSection = "IT", WorkingTime = 10 });
             ManagmentEmployee.employees.Add(new ManagmentEmployee() { Name = "Bob", Salary = 400, WorkingSection = "HR", WorkingTime = 5 });
             ManagmentEmployee.employees.Add(new ManagmentEmployee() { Name = "Tom", Salary = 200, WorkingSection = "HR", WorkingTime = 7 });
+            ManagmentEmployee.employees.Add(new ManagmentEmployee() { Name = "Alex", Salary = 300, WorkingSection = "IT", WorkingTime = 10 });
             ManagmentEmployee.employees.Add(new ManagmentEmployee() { Name = "Jerry", Salary = 350, WorkingSection = "IT", WorkingTime = 9 });
             ManagmentEmployee.employees.Add(new ManagmentEmployee() { Name = "Ali", Salary = 500, WorkingSection = "IT", WorkingTime = 18 });
             ManagmentEmployee.employees.Add(new ManagmentEmployee() { Name = "Vali", Salary = 450, WorkingSection = "HR", WorkingTime = 12 });
@@ -76,6 +76,8 @@
             ManagmentEmployee.employees.Add(new ManagmentEmployee() { Name = "Tayson", Salary = 400, WorkingSection = "HR", WorkingTime = 4 });
             ManagmentEmployee.employees.Add(new ManagmentEmployee() { Name = "Michael", Salary = 200, WorkingSection = "IT", WorkingTime = 15 });
 
+            await Task.Delay(TimeSpan.FromSeconds(5));
+            Console.WriteLine("GanerateEmployees Complated!!!");
         }
 
         public static async void EmployeesRead()
@@ -86,6 +88,9 @@
                 Console.WriteLine(emp.ToString());
 
             }
+
+            await Task.Delay(TimeSpan.FromSeconds(5));
+            Console.WriteLine("EmployeesRead Complated!!!");
         }
 
 

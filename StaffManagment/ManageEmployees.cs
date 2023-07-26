@@ -17,7 +17,7 @@
             
             
                 await Task.Delay (TimeSpan.FromSeconds(5));
-                Console.WriteLine("Complated!!!");
+                Console.WriteLine("CreateEmployee Complated!!!");
             
         }
 
@@ -50,7 +50,7 @@
 
 
             await Task.Delay(TimeSpan.FromSeconds(5));
-            Console.WriteLine("Complated!!!");
+            Console.WriteLine("UpdateEmployee Complated!!!");
         }
 
         public static async void DeleteEmployee()
@@ -70,7 +70,7 @@
 
 
             await Task.Delay(TimeSpan.FromSeconds(5));
-            Console.WriteLine("Complated!!!");
+            Console.WriteLine("DeleteEmployee Complated!!!");
         }
 
         public static async Task NiceEmployee()
@@ -80,9 +80,12 @@
             String employee = ManagmentEmployee.employees.Where(x => x.WorkingTime == maxi).FirstOrDefault().ToString();
             Console.WriteLine("Managmentda eng ko'p ishlagan xodim : ");
             Console.WriteLine(employee);
+
+            await Task.Delay(TimeSpan.FromSeconds(5));
+            Console.WriteLine("NiceEmployee Complated!!!");
         }
 
-        public static void Top5Employee()
+        public static async void Top5Employee()
         {
             Console.Clear();
             IEnumerable<ManagmentEmployee> top5 = ManagmentEmployee.employees.OrderByDescending(x => x.Salary)
@@ -92,6 +95,9 @@
             {
                 Console.WriteLine(employee.ToString());
             }
+
+            await Task.Delay(TimeSpan.FromSeconds(5));
+            Console.WriteLine("Top5Employee Complated!!!");
         }
 
         public static async void sectionCount()
@@ -105,6 +111,9 @@
             }
             Console.WriteLine("IT bo'limida ishlovchi xodimlar soni : "+IT);
             Console.WriteLine("HR bo'limida ishlovchi xodimlar soni : "+HR);
+
+            await Task.Delay(TimeSpan.FromSeconds(5));
+            Console.WriteLine("sectionCount Complated!!!");
         }
     }
 }
