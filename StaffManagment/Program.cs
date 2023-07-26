@@ -18,7 +18,7 @@
                             writer.WriteLine(employee.ToString());
 
                     }
-                    Console.WriteLine("\n\nKerakli bo'limni tanlang : \n1.Xodimlarni ko'rish\n2.Xodim qo'shish\n" +
+                     Console.WriteLine("\n\nKerakli bo'limni tanlang : \n1.Xodimlarni ko'rish\n2.Xodim qo'shish\n" +
                         "3.Xodimni O'zgartirish\n4.Xodimni ishdan olish\n5.Eng uzoq vaqtdan beri ishlab kelayotgan xodim\n" +
                         "6.Eng ko'p maosh oluvchi 5 ta xodim\n7.Har bir bo'limdagi xodimlar soni\n8.Dasturdan chiqish");
                     byte m = Convert.ToByte(Console.ReadLine());
@@ -28,7 +28,7 @@
                             EmployeesRead();
                             break;
                         case 2:
-                            ManageEmployees.CreateEmployee();
+                            var s = ManageEmployees.CreateEmployee();
                             break;
                         case 3:
                             ManageEmployees.UpdateEmployee();

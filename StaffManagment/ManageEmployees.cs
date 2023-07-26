@@ -3,7 +3,7 @@
     public static class ManageEmployees
     {
 
-        public static void CreateEmployee()
+        public static async Task CreateEmployee()
         {
             Console.Clear();
             Console.Write("Xodimni ismini kiriting : ");
@@ -14,9 +14,14 @@
             string? workingSection = Console.ReadLine();
             ManagmentEmployee.employees.Add(new ManagmentEmployee() { Name = name, Salary = salary, 
                 WorkingSection = workingSection, WorkingTime = 0 });
+            
+            
+                await Task.Delay (TimeSpan.FromSeconds(5));
+                Console.WriteLine("Complated!!!");
+            
         }
 
-        public static void UpdateEmployee() 
+        public static async Task UpdateEmployee() 
         {
             Console.Clear();
             Console.Write("O'zgartirmoqchi bo'lgan xodimni ismini kiriting : ");
@@ -42,9 +47,13 @@
                 
             }
             else Console.WriteLine("Bunday xodim topilmadi");
+
+
+            await Task.Delay(TimeSpan.FromSeconds(5));
+            Console.WriteLine("Complated!!!");
         }
 
-        public static void DeleteEmployee()
+        public static async void DeleteEmployee()
         {
             Console.Clear();
             Console.Write("Bo'shatmoqchi bo'lgan xodimni ismini kiriting : ");
@@ -59,6 +68,9 @@
             }
             else Console.WriteLine("Bunday xodim topilmadi");
 
+
+            await Task.Delay(TimeSpan.FromSeconds(5));
+            Console.WriteLine("Complated!!!");
         }
 
         public static void NiceEmployee()
