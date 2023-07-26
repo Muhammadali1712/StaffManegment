@@ -64,7 +64,7 @@
 
         }
 
-        public static void GanerateEmployees()
+        public static async void GanerateEmployees()
         {
             ManagmentEmployee.employees.Add(new ManagmentEmployee() { Name = "Alex", Salary = 300, WorkingSection = "IT", WorkingTime = 10 });
             ManagmentEmployee.employees.Add(new ManagmentEmployee() { Name = "Bob", Salary = 400, WorkingSection = "HR", WorkingTime = 5 });
@@ -78,7 +78,7 @@
 
         }
 
-        public static void EmployeesRead()
+        public static async void EmployeesRead()
         {
             Console.Clear();
             foreach (var emp in ManagmentEmployee.employees)

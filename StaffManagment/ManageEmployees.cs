@@ -73,7 +73,7 @@
             Console.WriteLine("Complated!!!");
         }
 
-        public static void NiceEmployee()
+        public static async Task NiceEmployee()
         {
             Console.Clear();
             double maxi = ManagmentEmployee.employees.Max(x => x.WorkingTime);
@@ -94,7 +94,7 @@
             }
         }
 
-        public static void sectionCount()
+        public static async void sectionCount()
         {
             Console.Clear();
             int HR=0, IT=0;
